@@ -1,0 +1,16 @@
+﻿<Window x:Class="_06._10._2023_Свойства_зависимостей_и_маршрутизируемые_события.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_06._10._2023_Свойства_зависимостей_и_маршрутизируемые_события"
+        mc:Ignorable="d"
+        Title="Kredit" Height="300" Width="500">
+    <Grid>
+        <StackPanel>
+            <TextBox x:Name="textBox" Width="auto" Height="25" Margin="10" VerticalAlignment="Top" TextChanged="textBox_TextChanged"/>
+            <Slider x:Name="slider" Margin="10" Value="0" Maximum="0"/>
+            <TextBlock x:Name="textBlock" Margin="10" FontSize="14" Text="{Binding ElementName=slider, Path=Value}"/>
+        </StackPanel>
+    </Grid>
+</Window>

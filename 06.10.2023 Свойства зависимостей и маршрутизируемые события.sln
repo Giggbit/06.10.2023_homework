@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.10.2023 Свойства зависимостей и маршрутизируемые события", "06.10.2023 Свойства зависимостей и маршрутизируемые события.csproj", "{C94B106D-4ECC-409C-9915-15B66370E54C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C94B106D-4ECC-409C-9915-15B66370E54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94B106D-4ECC-409C-9915-15B66370E54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94B106D-4ECC-409C-9915-15B66370E54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94B106D-4ECC-409C-9915-15B66370E54C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {154764DC-654D-460B-8ED6-46CA99112F7A}
+	EndGlobalSection
+EndGlobal
